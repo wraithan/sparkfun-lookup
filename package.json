@@ -1,0 +1,24 @@
+{
+  "name": "sparkfun-lookup",
+  "version": "0.0.1",
+  "description": "Given an id or part number sparkfun-lookup returns the product.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wraithan/sparkfun-lookup.git"
+  },
+  "keywords": [
+    "sparkfun"
+  ],
+  "author": "Wraithan (http://wraithan.net/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/wraithan/sparkfun-lookup/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}
