@@ -3,7 +3,6 @@
 Very simple library to get a product's data from sparkfun given an ID or part number.
 
 ```javascript
-
 var lookup = require('sparkfun-lookup')
 
 lookup({id: 97, part: 'COM-00097'}, function(err, product, htmlUrl, jsonUrl) {
